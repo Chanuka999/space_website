@@ -2,6 +2,7 @@ import React from "react";
 import video from "./assets/video.mp4";
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
+import Services from "./Components/Services";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Navbar />
         <Hero />
       </div>
+      <Services />
     </div>
   );
 };
