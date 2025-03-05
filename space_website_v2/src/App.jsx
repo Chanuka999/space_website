@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Services from "./Components/Services";
 import Banner from "./Components/Banner";
 import Banner2 from "./Components/Banner2";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Services />
       <Banner />
       <Banner2 />
+      <Footer />
     </div>
   );
 };
