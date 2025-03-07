@@ -1,11 +1,12 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaLinkdin } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaLinkedin } from "react-icons/fa";
+
 import { HiLocationMarker } from "react-icons/hi";
 import { MdCall, MdMessage } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-white px-5">
+    <div className="bg-gray-800 text-white relative px-5">
       <section className="max-w-[1200px] mx-auto text-white">
         <div className="grid md:grid-cols-3 py-5">
           <div className="py-8 px-4">
@@ -86,11 +87,11 @@ const Footer = () => {
             </div>
           </div>
           <div className="hidden sm:block">
-            <div>
+            <div className="flex justify-between items-center py-6 border-t-2 border-gray-600">
               <span className="text-sm text-gray-400">
                 copyright @copy: 2025 by CR
               </span>
-              <div>
+              <div className="flex items-center justify-center gap-4 pb-4">
                 <a href="#">
                   <FaInstagram className="text-4xl" />
                 </a>
@@ -98,9 +99,15 @@ const Footer = () => {
                   <FaFacebook className="text-4xl" />
                 </a>
                 <a href="#">
-                  <FaLinkdin className="text-4xl" />
+                  <FaLinkedin className="text-4xl" />
                 </a>
               </div>
+              <span className="text-sm text-gray-400">
+                <ul className="flex gap-3">
+                  <li>Privacy Policy</li>
+                  <li>Terms & condition</li>
+                </ul>
+              </span>
             </div>
           </div>
         </div>
