@@ -7,6 +7,7 @@ import Banner from "./Components/Banner";
 import Banner2 from "./Components/Banner2";
 import Footer from "./Components/Footer";
 import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
   React.useEffect(() => {
