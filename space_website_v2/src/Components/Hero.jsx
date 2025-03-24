@@ -11,10 +11,17 @@ const Hero = () => {
               Orbite the Earth
             </h1>
             <p data-aos="fade-up" data-aos-delay="300">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-              vero tenetur nostrum ad pariatur! Aspernatur tempora, commodi
-              voluptatem harum debitis culpaet sapiente placeat provident
-              consectetur quibusdam dolores dignissimos maiores?
+              Welcome to space web site, your gateway to the wonders of the
+              cosmos! Discover the mysteries of space, explore breathtaking
+              galaxies, and stay updated with the latest astronomical
+              discoveries. Stay informed with real-time updates on space
+              missions, astronomical events, and scientific breakthroughs. 🌌
+              Interactive Universe – Explore planets, stars, and galaxies
+              through stunning visuals and interactive simulations. 🛰️ Space
+              Missions – Track ongoing and past space missions, including NASA,
+              SpaceX, and international space agencies. 📡 Astronomy Guides –
+              Learn about constellations, black holes, exoplanets, and more
+              through in-depth articles and educational content.
             </p>
             <button
               data-aos="fade-up"
