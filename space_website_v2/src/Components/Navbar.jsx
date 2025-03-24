@@ -16,16 +16,16 @@ const Navbar = () => {
           <div className="text-white hidden md:block">
             <ul className="flex items-center gap-6 text-xl py-4 sm-py-0">
               <li>
-                <a href="#">About</a>
+                <a href="Hero.jsx">About</a>
               </li>
               <li>
-                <a href="#">Technology</a>
+                <a href="Banner.jsx">Technology</a>
               </li>
               <li>
-                <a href="#">Galaxy</a>
+                <a href="Banner2.jsx">Galaxy</a>
               </li>
               <li>
-                <a href="#">Satelite</a>
+                <a href="Services.jsx">Satelite</a>
               </li>
             </ul>
           </div>
